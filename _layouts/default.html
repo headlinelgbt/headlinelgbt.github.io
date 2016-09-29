@@ -18,15 +18,20 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.13/webcomponents-lite.min.js"></script>
+  <link rel="import" href="https://components.cloudstitch.com/cloudstitch-handlebars.html" />
+
+
   </head>
 <body class="w_bannertop">
-  <header class="fullbg headertop ">
-    <div class="container h_general">
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 logotop">
-        <a class="list-logo" style="color: #fff;" href="/">@HEADLINELGBT</a>
-      </div>
-    </div>
-  </header>
+
+
+
+
+
   <div id="modals-placeholder"></div>
   <div class="fullbg bgcartop">
   <div class="video-container">
@@ -40,21 +45,8 @@
 
 
 
-
-   <form id="mc-form">
-
-    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 btn-susbcr inputmail"> 
-      <i class="fa fa-envelope ico ico-env"></i>
-
-       <input id="mc-email" class="col-xs-12 txt_bigger orange email pr140" type="email" placeholder="email">
-
-
-        <label for="mc-email"></label>
-
-
-      <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="pull-right btnsend bgorange" data-disable-with="Subscribing ...">SUBSCRIBE</button>
-    </div>
-</form>  </div>
+<cloudstitch-handlebars user="headlinelgbt" app="vacation-interest-form"></cloudstitch-handlebars>
+ </div>
 
 
 <!--End mc_embed_signup-->
@@ -74,10 +66,10 @@
 <p>We can't wait to hear what you think.</p>
 
       </div>
-      <a class="linkorange" href="/lists/sf/recent_issues">SEE OUR LATEST ISSUE</a>
+      <a class="linkorange" href="/">SEE OUR LATEST ISSUE</a>
     </div>
     <div class="col-lg-6 col-md-6 screensite visible-lg">
-      <img src="placehold.jpg" alt="Original placeit %281%29">
+      <img src="https://cdn0.vox-cdn.com/uploads/chorus_asset/file/2381648/inbox-003-2040.0.jpg" style="margin-top: 30px;" alt="Original placeit %281%29">
     </div>
   </div>
 </div>
@@ -109,22 +101,9 @@
   <div class="container text-center">
     <h2>It's totally free, hun. Why not try us on for size?</h2>
     
-<form class="subscription-form list-show-orange" id="mc-form2" accept-charset="UTF-8">
-    <div class="col-xs-12 btn-susbcr inputmail"> 
-      <i class="fa fa-envelope icon"></i>
-      
-       <input id="mc-email" class="col-xs-12 txt_bigger orange email pr140" type="email" placeholder="email">
 
 
-        <label for="mc-email"></label>
-
-      <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="pull-right btnsend bgorange" data-disable-with="Subscribing ...">SUBSCRIBE</button>
-
-
-
-
-    </div>
-</form>
+<cloudstitch-handlebars user="headlinelgbt" app="vacation-interest-form"></cloudstitch-handlebars>
 
 
  </div>
@@ -179,6 +158,42 @@
 
 label.error {margin-top: 10px; padding: 15px;}
 
+
+input[type='text']
+{
+    width: 400px;
+}
+
+@media (max-width: 480px) {
+
+input[type='text']
+{
+    width: 100%;
+}
+
+.bgcartop {
+    background-size: cover;
+    background-position: center;
+    min-height: 890px;
+    padding-top: 140px;
+    position: relative;
+}
+
+.bginfohome .infohome {
+    margin-top: 0px;
+    padding-right: 0;
+    margin-right: 0;
+    padding: 15px;
+}
+
+}
+
+
+
 </style>
+
+
+
+
   
 </body></html>
