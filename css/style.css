@@ -11823,7 +11823,7 @@ footer a:hover {
     left: 0
 }
 
-.bgcartop .video-container video {
+.bgcartop .video-container {
     min-width: 100%;
     min-height: 100%;
     background-color: transparent;
@@ -11832,7 +11832,8 @@ footer a:hover {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover
+    background-size: cover;
+        background: #211E1F;
 }
 
 .bgcartop h2 {
