@@ -11613,7 +11613,13 @@ footer a:hover {
 
 .txtbgorgange h2 {
     font-size: 26px;
-    margin-bottom: 36px
+    margin-bottom: 36px;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
 }
 
 .txtbgorgange.thankscuscr .container {
@@ -12178,4 +12184,24 @@ footer a:hover {
         text-align: center;
         display: block
     }
+}
+
+.flex-form input[type="submit"] {
+    background: #010101 !important;
+    border-top: 1px solid #010101 !important;
+    border-bottom: 1px solid #010101 !important;
+    color: white;
+    font-size: 12px;
+    color: #ebebeb;
+    /* margin-bottom: 60px; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.flex-form > *:not([type="date"]) {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-size: 14px;
+    color: #666;
+    text-transform: uppercase;
 }
