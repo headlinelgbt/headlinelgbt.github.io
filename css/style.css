@@ -11809,7 +11809,6 @@ footer a:hover {
     background-size: cover;
     background-position: center;
     min-height: 890px;
-    padding-top: 240px;
     position: relative
 }
 
@@ -11845,7 +11844,9 @@ footer a:hover {
 .bgcartop p {
     font-size: 22px;
     color: #fff;
-    margin-bottom: 60px
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 .bgcartop .btn-susbcr.inputmail {
