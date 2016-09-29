@@ -18,16 +18,6 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/core.js"></script>
-
-  <script type="text/javascript" src="http://headlinelgbt.github.io/jquery.ajaxchimp.js"></script>
-
-  <script>$('#mc-form').ajaxChimp({
-    url: 'http://headlinelgbt.us14.list-manage.com/subscribe/post?u=fd0c3d4e0233f7c64a5d8711a&amp;id=7a3f55e23d'
-});</script>
-
-
-
   </head>
 <body class="w_bannertop">
   <header class="fullbg headertop ">
@@ -43,17 +33,26 @@
     <video autoplay="autoplay" style="background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/03/27/22/lgbt-pride-flag.jpg);" src=""></video>
   </div>
   <div class="container text-center">
+
+
     <h2 style="font-family:'Oswald'">@HEADLINELGBT</h2>
     <p>Fun and fabulous news and highlights from the LGBT community</p>
-    <form class="subscription-form list-show-header" accept-charset="UTF-8" method="post" id="mc-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="LPs9LsXK46Vtv73CSDzgUdgBufIDygf2Dp19mTz39K0mOk2jSofIRoA7zDziMSfxORg9Qg/oXtsdbXsCc83S0A==">
+
+
+
+
+   <form id="mc-form">
+
     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 btn-susbcr inputmail"> 
       <i class="fa fa-envelope ico ico-env"></i>
-  <input class="col-xs-12 txt_bigger orange pr140" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your email" required>
+
+       <input id="mc-email" class="col-xs-12 txt_bigger orange email pr140" type="email" placeholder="email">
 
 
-      <type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="pull-right btnsend bgorange" data-disable-with="Subscribing ...">SUBSCRIBE</button>
+        <label for="mc-email"></label>
 
-      <label for="mc-email">Success!</label>
+
+      <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="pull-right btnsend bgorange" data-disable-with="Subscribing ...">SUBSCRIBE</button>
     </div>
 </form>  </div>
 
@@ -132,5 +131,24 @@
   </footer>
 
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+  <script type="text/javascript" src="http://headlinelgbt.github.io/jquery.ajaxchimp.js"></script>
+  
+  <script>$('#mc-form').ajaxChimp({
+    url: 'http://headlinelgbt.us14.list-manage.com/subscribe/post?u=fd0c3d4e0233f7c64a5d8711a&amp;id=7a3f55e23d'
+});</script>
+
+<style> .valid {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
   
 </body></html>
