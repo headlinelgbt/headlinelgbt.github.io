@@ -7179,19 +7179,25 @@ button.close {
     background-color: #000
 }
 
+.modal-body a:hover, .modal-body a:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
 .modal-backdrop.fade {
     opacity: 0;
     filter: alpha(opacity=0)
 }
 
 .modal-backdrop.in {
-    opacity: 0.5;
+    opacity: 0.9;
     filter: alpha(opacity=50)
 }
 
 .modal-header {
-    padding: 15px;
-    border-bottom: 1px solid #e5e5e5
+        padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 0px;
 }
 
 .modal-header:before,
@@ -11503,7 +11509,7 @@ footer a:hover {
 }
 
 .modal-backdrop {
-    background: #ff5c03
+    background: #11111;
 }
 
 .tellafriend .modal-header {
@@ -11684,7 +11690,7 @@ footer a:hover {
     padding-bottom: 149px
 }
 
-.bginfohome h1 {
+.bginfohome h1 , .modal-title {
     font-size: 30px;
     margin-bottom: 30px;
     font-size: 22px;
@@ -12206,4 +12212,31 @@ footer a:hover {
     font-size: 14px;
     color: #666;
     text-transform: uppercase;
+}
+
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+.resp-sharing-button__icon--solid, .resp-sharing-button__icon--solidcircle {
+    fill: #fff;
+    stroke: none;
+    padding-right: 5px;
 }
