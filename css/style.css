@@ -11982,7 +11982,14 @@ footer a:hover {
     .infobox.vote figure.img-circle img {
         max-width: 75%
     }
+
+
+    .logo-img {padding-top: 110px; padding-bottom: 110px;}
+
 }
+
+
+    .logo-img {padding-top: 90px; padding-bottom: 90px;}
 
 @media (max-width: 1024px) {
     .bginfohome {
@@ -12002,15 +12009,36 @@ footer a:hover {
     .infoquotes .quote {
         padding: 80px 40px 0
     }
+
+    .logo-img {padding-top: 80px; padding-bottom: 80px;}
 }
 
 @media (max-width: 768px) {
     .infoquotes .quote {
         padding: 80px 40px 0
     }
+
+
+    .logo-img {padding-top: 40px; padding-bottom: 40px;}
+
 }
 
 @media (max-width: 480px) {
+
+
+    .logo-img {padding-top: 20px; padding-bottom: 20px;}
+
+.infopage p {
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 40px;
+    color: #6d6b6b;
+    font-size: 14px;
+    color: #707070;
+    line-height: 32px;
+    margin-bottom: 13px;
+}
+
     .list-logo {
         text-align: center;
         display: block
