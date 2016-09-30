@@ -546,6 +546,7 @@ $(document).ready(function() {
 
   if(window.location.href.indexOf('#myModal') != -1) {
     $('#myModal').addClass('show');
+    $('<div class="modal-backdrop"></div>').appendTo(document.body);
   }
 
 });
