@@ -3,13 +3,18 @@ layout: about
 title:  About Headline LGBT
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices nulla non gravida bibendum. Integer at leo diam. Ut consectetur lacus vitae porta dictum. Aenean metus libero, tempus maximus urna vel, molestie cursus nisl. Vestibulum lectus ligula, viverra ut sapien vel, sollicitudin hendrerit leo. Sed in porttitor elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse dolor ligula, imperdiet ac pharetra et, porta vitae nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis augue sem, sed semper sem condimentum non. Curabitur sit amet nibh in nisi porta feugiat quis vitae odio. Duis placerat leo nec neque mollis, eget porttitor risus lobortis.
+<p><strong>Headline LGBT is a quick, entertaining email looking at the day's best stories from a shamelessly LGBT perspective.</strong></p>
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In eget urna sagittis lacus suscipit pharetra sit amet ac risus. Phasellus ullamcorper lorem non porttitor ornare. Vivamus et odio odio. Quisque efficitur turpis sit amet dolor sollicitudin consequat. Integer et ipsum ut justo iaculis imperdiet. Cras tincidunt eu tellus sed elementum. Aenean finibus volutpat nulla rhoncus facilisis. Aliquam erat volutpat.
+<p>Every morning we check out 100 news sites, and from that disorder assemble the ten most intruiging, gripping, captivating items of the day. We then collect the news together and drop a sweet crumb of deliciousness into your inbox, just in time for tea.</p>
 
-Ut sit amet sem dui. Nulla viverra maximus sem. Duis condimentum turpis ac fringilla scelerisque. Morbi non iaculis odio. Mauris eu diam augue. Donec in pharetra felis. Aliquam congue ante vitae metus aliquet tincidunt. Mauris finibus justo ut sapien convallis, ut feugiat urna fermentum. Aliquam erat volutpat. Cras vel auctor dolor. Etiam suscipit ornare ante vitae rhoncus. Sed tristique magna urna. Fusce eget augue laoreet sapien imperdiet suscipit id sit amet purus. Phasellus dignissim magna eleifend, tincidunt metus non, venenatis libero. Proin facilisis ultricies dolor, ac bibendum erat faucibus in. Aliquam sed magna in elit suscipit porttitor.
+<p>All curated by living, breathing humans. No algorithms, no RSS, no bots.</p>
 
-Sed vulputate quam eget diam placerat feugiat. Donec tristique est vitae leo laoreet, pretium viverra risus congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mollis leo ut velit auctor sodales. Ut quis porttitor mauris. Vestibulum justo odio, luctus in finibus sit amet, scelerisque vel erat. Nunc interdum finibus velit sit amet blandit. Phasellus et mollis sapien. Integer et egestas lacus. Etiam quis lobortis justo, non rhoncus metus. Fusce consequat rutrum nisl sit amet sollicitudin. Etiam gravida porttitor sem non molestie. Vestibulum ullamcorper, sem at cursus vehicula, tellus ipsum pretium eros, sit amet luctus lacus eros eget dui.
+<p>Why email? Because writing on the web is broken. The web is a mess of clickbait and shouty journalism, with details left out and readers duped and manipulated.</p>
+
+<p>We want to fix that. If we can convince you to subscribe, we can deliver something great to you every day. We don't need to pay for social traffic, or use clickbaity headlines. We just publish and the best news of the day lands in your inbox. And if we don't deliver value, you can unsubscribe.</p>
+
+<p>We can't wait to hear what you think.</p>
+
 
 
 
