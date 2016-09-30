@@ -299,12 +299,6 @@ th {
     }
 }
 
-@font-face {
-    font-family: 'Glyphicons Halflings';
-    src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
-    src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg")
-}
-
 .glyphicon {
     position: relative;
     top: 1px;
@@ -8127,14 +8121,6 @@ button.close {
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
-@font-face {
-    font-family: 'FontAwesome';
-    src: url("/assets/fontawesome-webfont-cbb644d0ee730ea57dd5fbae35ef5ba4a41d57a254a6b1215de5c9ff8a321c2d.eot?v=4.3.0");
-    src: url("/assets/fontawesome-webfont-cbb644d0ee730ea57dd5fbae35ef5ba4a41d57a254a6b1215de5c9ff8a321c2d.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0") format("woff2"), url("/assets/fontawesome-webfont-e3870de89716b72cb61a4bba0e17c75783b361cdaba35ea96961c3070bd8ca18.woff?v=4.3.0") format("woff"), url("/assets/fontawesome-webfont-9e540a087924a6e64790149d735cac022640e4fa6bff6bd65f5e9f41529bf0b3.ttf?v=4.3.0") format("truetype"), url("/assets/fontawesome-webfont-bfdef833219a6edffd9c3cbc28db72739d22bb4d20cc2e2f8d56a7a4d408a206.svg?v=4.3.0#fontawesomeregular") format("svg");
-    font-weight: normal;
-    font-style: normal
-}
-
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -10521,14 +10507,6 @@ button.close {
     background: #ff5c03;
     color: #fff;
     text-shadow: none
-}
-
-@font-face {
-    font-family: 'Oswald';
-    src: url(/assets/Oswald-6eb5b0855dd312a7e6dbe8f9a2374c7354e869ab1d17e2853e3bcf931c2f0d19.eot);
-    src: url(/assets/Oswald-6eb5b0855dd312a7e6dbe8f9a2374c7354e869ab1d17e2853e3bcf931c2f0d19.eot?#iefix) format("embedded-opentype"), url(/assets/Oswald-bbb000ca8e4362690dc3106789a26e30b20ff0ad059c7d6a65d3f2ced1c4f2f6.woff) format("woff"), url(/assets/Oswald-842f46cbc4877e5791b1b81360db5a21ff0823ea88b087eb25d8322891037e65.ttf) format("truetype"), url(/assets/Oswald-b22c343402c1c4ddf076ef8d2ad0f270788d2065a2c7bddd9488c3dd569a82fe.svg#ywftsvg) format("svg");
-    font-weight: normal;
-    font-style: normal
 }
 
 body {
