@@ -63,6 +63,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   </head>
 <body class="w_bannertop">
+<div id="bd-wrapper">
 
 
 
@@ -228,6 +229,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <style> 
 
+
+#bd-wrapper{
+    background-image:url('some-image.jpg');
+    display:none;
+}
+
 </style>
 
 
@@ -255,5 +262,9 @@ window.scrollTo(scrollPosition[0], scrollPosition[1]);
 
 });
 </script>
-  
+<script>
+$(document).ready(function(){
+    $('#bd-wrapper').fadeIn();
+});</script>
+  </div>
 </body></html>
