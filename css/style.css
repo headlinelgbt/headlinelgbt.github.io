@@ -3063,7 +3063,8 @@ table th[class*="col-"] {
     }
 
 
-.logo {max-width: 100%;}
+.logo {max-width: 100%;     padding-top: 30px;
+    width: 80% !important;}
 
     .table-responsive>.table {
         margin-bottom: 0
