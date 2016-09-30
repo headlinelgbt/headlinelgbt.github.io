@@ -51,6 +51,8 @@
 <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
 
+
+
   </head>
 <body class="w_bannertop">
 
@@ -58,10 +60,9 @@
 
 
 
-  <div id="modals-placeholder">
  
 <!-- Modal HTML -->
-<div id="myModal" class="modal fade">
+<div id="myModal" class="modal">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -101,7 +102,9 @@
             </div>
         </div>
     </div>
-</div></div>
+</div>
+
+
   <div class="fullbg bgcartop">
   <div class="video-container">
   </div>
@@ -110,6 +113,9 @@
 
     <h2 style="font-family:'Oswald'"><img src="logo.png" class="logo"></h2>
     <p>Stay stylishly up-to-date with the latest news, hottest trends and updates in the LGBT community.</p>
+<!-- 
+<a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal">Launch
+      Demo Modal</a> -->
 
 <cloudstitch-handlebars user="headlinelgbt" app="vacation-interest-form"></cloudstitch-handlebars>
  </div>
@@ -519,17 +525,6 @@ input[type='text']
 </style>
 
 
-<script>
-
-$(document).ready(function() {
-
-  if(window.location.href.indexOf('#myModal') != -1) {
-    $('#myModal').modal('show');
-  }
-
-});
-
-</script>
 
 
 
@@ -544,5 +539,16 @@ $(document).ready(function() {
 
 </script>
 
+
+
+<script>
+$(document).ready(function() {
+
+  if(window.location.href.indexOf('#myModal') != -1) {
+    $('#myModal').addClass('show');
+  }
+
+});
+</script>
   
 </body></html>
