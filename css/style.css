@@ -12023,10 +12023,62 @@ footer a:hover {
 
 }
 
+.bgcartop .container {
+    max-width: 690px;
+}
+
 @media (max-width: 480px) {
 
+.logotop {
+    text-align: center;
+}
 
     .logo-img {padding-top: 20px; padding-bottom: 20px;}
+
+
+    .w_bannertop .flex-form > * {
+    border: 0;
+    padding: 10px;
+    background: white;
+    line-height: 20px;
+    font-size: 20px;
+    border-radius: 0;
+    outline: 0;
+    border-right: 1px solid rgba(0,0,0,0.2);
+    -webkit-appearance: none;
+}
+
+.w_bannertop .flex-form {
+    z-index: 10;
+    display: flex;
+    border: 5px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.w_bannertop .flex-form > *:not([type="date"]) {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-size: 11px;
+    color: #666;
+    text-transform: uppercase;
+}
+
+.w_bannertop input[type='text'] {
+    width: 400px;
+    width: 200px !important;
+}
+
+.w_bannertop .flex-form input[type="submit"] {
+    background: #010101 !important;
+    border-top: 1px solid #010101 !important;
+    border-bottom: 1px solid #010101 !important;
+    color: white;
+    font-size: 10px !important;
+    color: #ebebeb;
+    /* margin-bottom: 60px; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
 .infopage p {
     font-size: 18px;
