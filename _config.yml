@@ -1,7 +1,7 @@
 ###########
 # site.title
 
-title:    'Jekyll Starter Theme'
+title:    'Headline LGBT'
 subtitle: 'Another Minimalistic Static Site Quick Starter Theme'
 
 
@@ -10,14 +10,27 @@ subtitle: 'Another Minimalistic Static Site Quick Starter Theme'
 #  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
 #    note: for root path use empty string e.g. '' - do NOT include trailing slash e.g. /
 
-path:  '/jekyll-starter-theme'
-url:   'http://henrythemes.github.io/jekyll-starter-theme'
+path:  '/'
+url:   'http://www.headlinelgbt.com'
 
 
 #########################
 # more settings
 
 markdown: kramdown
+
+
+permalink: /recent-posts/:title
+
+
+
+gems:
+  - jekyll-paginate
+  - jekyll-compose
+
+paginate: 8
+paginate_path: "recent-posts/page-:num"
+
 
 exclude:
 - README.md
