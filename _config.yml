@@ -20,7 +20,7 @@ url:   'http://www.headlinelgbt.com'
 markdown: kramdown
 
 
-permalink: /recent-posts/:title
+permalink: /recent-issues/:title
 
 
 
@@ -29,7 +29,7 @@ gems:
   - jekyll-compose
 
 paginate: 8
-paginate_path: "recent-posts/page-:num"
+paginate_path: "recent-issues/page-:num"
 
 
 exclude:
