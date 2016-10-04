@@ -8,6 +8,9 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+
+@import 'https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,600,600i,700,700i,800,800i';
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -10513,7 +10516,7 @@ body {
     background: #f8f4f3;
     color: #000000;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik','Open Sans', sans-serif;
     font-weight: 400
 }
 
