@@ -11830,7 +11830,7 @@ footer a:hover {
 .bgcartop {
     background-size: cover;
     background-position: center;
-    min-height: 890px;
+    min-height: 550px;
     position: relative
 }
 
